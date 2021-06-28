@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title>
+            Crossy Roads
+        </title>
+        <style>
+            body,html {
+                width : 100% ;
+                height : 100% ;
+            }
+            body {
+                margin : 0;
+                overflow: hidden;
+            }
+            #can {
+                background-color: rgb(7, 158, 7);
+                position : absolute; 
+                left: 0;
+                top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="player"  src="player.png"  alt="player"  width="303" height="218">
+        <img id="road"  src="road.png" alt="road" width="512" height="512">
+        <img id="tree"    src="tree.png"    alt="tree"    width="467" height="500" >
+        <img id="tractor" src="tractor.png" alt="tractor" width="960" height="665">
+        <img id="wolf" src="wolf.png" alt="wolf" width="616" height="659">
+        <canvas id="can"></canvas>
+        <script src="app.js"></script>
+    </body>
+</html>
